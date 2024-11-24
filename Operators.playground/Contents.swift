@@ -6,5 +6,7 @@ let yourAge = 23
 if myAge > yourAge {
     "I'm older then you"
 } else if myAge < yourAge {
-    "You older then me"
+    "I'm younger then you"
+} else {
+    "Oh hey, we are the same age"
 }
