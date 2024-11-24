@@ -27,3 +27,19 @@ var newArray = oldArray
 newArray.add("Qux")
 oldArray
 newArray
+
+//Bad example
+let someNames = NSMutableArray(
+    array: [
+        "Foo",
+        "Bar"
+    ]
+)
+
+func changeArray(_ array: NSArray) {
+    let copy = array as! NSMutableArray
+    copy.add("Baz")
+}
+
+changeArray(someNames)
+someNames
