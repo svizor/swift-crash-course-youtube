@@ -1,3 +1,12 @@
-import Cocoa
+import Foundation
 
-var greeting = "Hello, playground"
+let myName = "Andrii"
+let myAge = 46
+let youName = "Foo"
+let yourAge = 23
+
+if myName == "andrii" {
+    "Your name is \(myName)"
+} else {
+    "Oops, I guessed it wrong"
+}
