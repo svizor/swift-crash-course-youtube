@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/svizor/Code/Swift/swift-crash-course-youtube/Structures.playground">
+   </FileRef>
+   <FileRef
       location = "group:Closures.playground">
    </FileRef>
    <FileRef
